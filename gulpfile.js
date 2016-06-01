@@ -32,14 +32,12 @@ gulp.task('dist', ['clean-dist'], function() {
                     CFBundleDisplayName: packageJson.name,
                     CFBundleIdentifier: packageJson.name,
                     CFBundleName: packageJson.name,
-                    CFBundleVersion: packageJson.version,
-                    icon: '/home/zhaopeng/code/user/ubuntu_tick/tick/src/images/dida.png'
+                    CFBundleVersion: packageJson.version
                 },
                 win: {
                     'version-string': packageJson.version,
                     'file-version': packageJson.version,
-                    'product-version': packageJson.version,
-                    'icon': '/home/zhaopeng/code/user/ubuntu_tick/tick/src/images/dida.png'
+                    'product-version': packageJson.version
                 }
             }
         }))
